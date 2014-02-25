@@ -1,0 +1,24 @@
+{
+  "name": "deps-nodejs",
+  "version": "0.0.0",
+  "description": "deps package for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "reactive",
+    "functional"
+  ],
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-mocha-test": "~0.9.3",
+    "chai": "~1.9.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0",
+    "lodash": "~2.4.1"
+  }
+}
