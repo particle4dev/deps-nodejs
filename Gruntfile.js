@@ -44,6 +44,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-jshint');
     //grunt.loadNpmTasks('grunt-browserify');
 
-    grunt.registerTask('default', 'mochaTest');
+    grunt.registerTask('default', ['mochaTest', 'watch']);
 
 }

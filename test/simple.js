@@ -18,13 +18,12 @@ var NumberModel = function(n){
 
 suite("simple example", function() { 
 
-    test("with number", function(done) {
+    test("with number", function() {
         var A = new NumberModel();
         var B = 0;
         Deps.autorun(function(c){
             B = 5 + A.get();
             expect(B).to.equal(A.get() + 5);
-            done();
         });
         A.set(5);
     });
